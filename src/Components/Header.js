@@ -30,6 +30,7 @@ const List = styled.ul`
 `;
 
 const Item = styled.li`
+	box-sizing: content-box;
 	height: 100%;
 	display: flex;
 	justify-content: center;
